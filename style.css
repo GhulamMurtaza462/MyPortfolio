@@ -16,6 +16,9 @@ body {
   color: #e5e5e5;
 }
 
+/* =========================
+   2. Hero Header / Wrapper
+========================= */
 .hero-header {
   width: 100%;
   min-height: 100vh;
@@ -29,6 +32,9 @@ body {
   padding: 0 20px;
 }
 
+/* =========================
+   3. Header / Logo / Navbar
+========================= */
 header {
   padding: 40px 0 30px;
   display: flex;
@@ -102,6 +108,9 @@ nav .navlinks li a:hover {
   color: #007ced;
 }
 
+/* =========================
+   4. Hero Section
+========================= */
 .container,
 .hero-container {
   display: flex;
@@ -112,8 +121,8 @@ nav .navlinks li a:hover {
 }
 
 .container .hero-pic {
-  width: 280px;
-  height: 380px;
+  width: 270px;
+  height: 360px;
   border-radius: 50%;
   overflow: hidden;
   border: 15px solid #444;
@@ -165,6 +174,9 @@ nav .navlinks li a:hover {
   line-height: 1.6;
 }
 
+/* =========================
+   5. Buttons / Social Icons
+========================= */
 .btn-group {
   margin: 45px 0;
 }
@@ -213,6 +225,9 @@ nav .navlinks li a:hover {
   transform: rotate(360deg);
 }
 
+/* =========================
+   6. Common Section Styling
+========================= */
 .section {
   padding: 90px 0;
   background: #222;
@@ -244,6 +259,9 @@ nav .navlinks li a:hover {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
 
+/* =========================
+   7. About Section
+========================= */
 .about-card,
 .contact-card {
   display: flex;
@@ -287,6 +305,9 @@ nav .navlinks li a:hover {
   font-weight: 700;
 }
 
+/* =========================
+   8. Skills Section
+========================= */
 .skills-box {
   padding: 30px;
   display: flex;
@@ -309,6 +330,9 @@ nav .navlinks li a:hover {
   transform: translateY(-3px);
 }
 
+/* =========================
+   9. Cards / Services / Projects
+========================= */
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -345,6 +369,9 @@ nav .navlinks li a:hover {
   font-weight: 600;
 }
 
+/* =========================
+   10. Timeline Section
+========================= */
 .timeline {
   max-width: 850px;
   margin: 0 auto;
@@ -358,6 +385,9 @@ nav .navlinks li a:hover {
   transition: 0.3s;
 }
 
+/* =========================
+   11. Contact Section
+========================= */
 .contact-card {
   align-items: stretch;
 }
@@ -402,6 +432,9 @@ nav .navlinks li a:hover {
   border-color: #007ced;
 }
 
+/* =========================
+   12. Footer
+========================= */
 .footer {
   background: #1f1f1f;
   padding: 55px 0 20px;
@@ -432,6 +465,9 @@ nav .navlinks li a:hover {
   padding-top: 18px;
 }
 
+/* =========================
+   13. Scroll Top Button
+========================= */
 .scroll-top {
   position: fixed;
   right: 25px;
@@ -446,6 +482,9 @@ nav .navlinks li a:hover {
   justify-content: center;
 }
 
+/* =========================
+   14. Responsive Design - Tablet
+========================= */
 @media (max-width: 930px) {
   nav .togglebtn {
     display: block;
@@ -503,6 +542,9 @@ nav .navlinks li a:hover {
   }
 }
 
+/* =========================
+   15. Responsive Design - Mobile
+========================= */
 @media (max-width: 768px) {
   .container,
   .hero-container,
